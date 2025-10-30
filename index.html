@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="container">
+      <section class="c-left-side">
+        <div class="c-left-side__content">
+          <div class="c-left-side__title-box">
+            <h1 class="c-left-side__title">Welcome Back!</h1>
+
+            <h2 class="c-left-side__subtitle">
+              Please enter log in details below
+            </h2>
+          </div>
+
+          <div class="c-left-side__content-box">
+            <div class="c-left-side__input-box">
+              <div class="c-left-side__input-email-box">
+                <label for="input-email">Email</label>
+
+                <input
+                  type="text"
+                  name="input-email"
+                  class="c-left-side__input"
+                />
+              </div>
+
+              <div class="c-left-side__input-password-box">
+                <label for="input-password">Password</label>
+
+                <input
+                  type="text"
+                  name="input-password"
+                  class="c-left-side__input"
+                />
+              </div>
+            </div>
+
+            <div class="c-left-side__forgot-password-box">
+              <a href="#" class="c-left-side__forgot-password">
+                Forgot password?
+              </a>
+            </div>
+
+            <div class="c-left-side__sign-in-box">
+              <button class="c-left-side__btn c-left-side__sign-in">
+                Sign In
+              </button>
+
+              <div class="c-left-side__or-continue">
+                <span class="c-left-side__or-continue-divider"></span>
+                <span class="c-left-side__or-continue-text">or continue</span>
+                <span class="c-left-side__or-continue-divider"></span>
+              </div>
+
+              <button class="c-left-side__btn c-left-side__login-with-google">
+                <img
+                  src="./public/assets/google-icon.png"
+                  alt="Google icon"
+                  width="20"
+                  height="20"
+                />
+
+                <span>Log in with Google</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="c-left-side__sign-up-box">
+            <span class="c-left-side__dont-have-account">
+              Don't have an account?
+            </span>
+
+            <a href="#" class="c-left-side__sign-up"> Sign Up </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="c-right-side">
+        <div class="c-right-side__img-box">
+          <img
+            height="800"
+            src="./public/assets/login-image.webp"
+            alt="Login image"
+          />
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

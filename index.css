@@ -1,0 +1,307 @@
+/* RESET CSS BELOW */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* RESET CSS ABOVE */
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+input {
+  outline: none;
+}
+
+/* Container */
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+
+/* Left side */
+.c-left-side {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+.c-left-side__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 580px;
+  width: 100%;
+  gap: 40px;
+}
+
+.c-left-side__title-box {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.c-left-side__title {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.c-left-side__subtitle {
+  font-size: 16px;
+}
+
+.c-left-side__content-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.c-left-side__input-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.c-left-side__input-email-box,
+.c-left-side__input-password-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 5px;
+}
+
+.c-left-side__input {
+  padding-left: 12px;
+  font-size: 14px;
+  height: 40px;
+  border: 1px solid;
+  border-radius: 10px;
+  border-color: rgb(212, 212, 212);
+}
+
+.c-left-side__forgot-password-box {
+  width: 100%;
+  text-align: right;
+}
+
+.c-left-side__forgot-password {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.c-left-side__sign-in-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-size: 14px;
+  gap: 20px;
+}
+
+.c-left-side__btn {
+  width: 100%;
+  border-radius: 10px;
+  height: 44px;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+.c-left-side__sign-in {
+  border-color: black;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  height: 56px;
+}
+
+.c-left-side__or-continue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.c-left-side__or-continue-text {
+  flex-shrink: 0;
+  margin: 0 10px;
+}
+
+.c-left-side__or-continue-divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid;
+  border-color: rgb(212, 212, 212);
+  width: 100%;
+}
+
+.c-left-side__login-with-google {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  background-color: white;
+  color: black;
+  border-color: rgb(212, 212, 212);
+}
+
+.c-left-side__sign-up-box {
+  width: 100%;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+
+.c-left-side__dont-have-account {
+  font-size: 12px;
+}
+
+.c-left-side__sign-up {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+/* Right side */
+.c-right-side {
+  background-color: black;
+  max-width: 100%;
+  width: 100%;
+  max-height: 100%;
+  margin: 20px 10px;
+  border-radius: 16px 16px 16px 60px;
+}
+
+.c-right-side__img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
