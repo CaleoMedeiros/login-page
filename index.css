@@ -220,6 +220,10 @@ input {
   font-weight: 600;
 }
 
+.c-left-side__forgot-password:hover {
+  color: grey;
+}
+
 .c-left-side__sign-in-box {
   display: flex;
   flex-direction: column;
@@ -241,6 +245,12 @@ input {
   background-color: rgb(0, 0, 0);
   color: white;
   height: 56px;
+}
+
+.c-left-side__sign-in:hover {
+  background-color: rgb(58, 57, 57);
+  transition: 0.3s;
+  transform: translateY(-2px);
 }
 
 .c-left-side__or-continue {
@@ -273,6 +283,12 @@ input {
   border-color: rgb(212, 212, 212);
 }
 
+.c-left-side__login-with-google:hover {
+  background-color: rgb(226, 226, 226);
+  transition: 0.3s;
+  transform: translateY(-2px);
+}
+
 .c-left-side__sign-up-box {
   width: 100%;
   display: flex;
@@ -289,6 +305,10 @@ input {
   color: black;
   font-weight: 700;
   font-size: 12px;
+}
+
+.c-left-side__sign-up:hover {
+  color: grey;
 }
 
 /* Right side */
