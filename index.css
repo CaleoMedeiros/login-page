@@ -139,7 +139,6 @@ input {
   flex-direction: column-reverse;
   gap: 24px;
   height: 100vh;
-  width: 100vw;
 }
 
 /* Left side */
@@ -351,6 +350,6 @@ input {
   }
 
   .c-right-side__img {
-    width: 100%;
+    width: 70%;
   }
 }
